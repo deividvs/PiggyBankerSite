@@ -51,11 +51,40 @@ header{
   font-size: 50px;
 }
 
+.navbar-nav .fa-facebook, .navbar-nav .fa-instagram, .navbar-nav .fa-twitter{
+  font-size: 20px;
+}
+
 .btn_sign_in{
   position: absolute;
-  border-bottom: 0;
+  display: inline-block;
+  margin-left: 65px;
+  margin-top: 40px;
+}
+
+.block_sign{
+  padding: 40px;
 }
 
 .download{
   padding: 10px!important;
+}
+
+#contact{
+  height: 300px!important;
+}
+
+.chatmessage{
+  background-color: #ccc;
+}
+
+.img-circle{
+  margin-top: 25px;
+}
+
+.conversarion{
+  background-color: #fff;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
