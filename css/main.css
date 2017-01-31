@@ -79,12 +79,20 @@ header{
 }
 
 .img-circle{
-  margin-top: 25px;
+  margin-top: 2px;
+  margin-left: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.text-chat{
+  padding-top: 30px;
+  margin-left: 10px;
 }
 
 .conversarion{
   background-color: #fff;
-  height: 150px;
   margin-top: 5px;
   margin-bottom: 5px;
+  padding: 10px;
 }
