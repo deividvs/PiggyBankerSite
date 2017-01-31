@@ -96,6 +96,13 @@ header{
   margin-right: 10px;
 }
 
+.advantage{
+  color: #42cce6;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+
+}
+
 .text-chat{
   margin-left: 10px;
 }
