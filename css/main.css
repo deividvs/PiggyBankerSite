@@ -70,10 +70,11 @@ header{
 }
 
 #contact{
-  height: 300px!important;
+
 }
 
 .chatmessage{
+  padding:20px!important;
   background-color: #ccc;
 }
 
@@ -85,7 +86,6 @@ header{
 }
 
 .text-chat{
-  padding-top: 30px;
   margin-left: 10px;
 }
 
