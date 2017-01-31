@@ -2,8 +2,9 @@ header, .download, .features, .overlay, .contact .bg-primary{
   overflow-x: hidden;
 }
 
-h3{
+.how_to_work{
   font-weight: bold;
+  font-size: 40px;
   padding-bottom: 25px;
 }
 
@@ -45,6 +46,10 @@ header{
   height: 250px;
 }
 
+.block_midle h3{
+  font-weight: bold;
+}
+
 .circle-icon{
   background-color: #fff;
   width: 80px;
@@ -81,6 +86,7 @@ header{
 .chatmessage{
   padding:20px!important;
   background-color: #ccc;
+  background-image: url('../img/background_chat.jpg');
 }
 
 .img-circle{
