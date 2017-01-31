@@ -1,0 +1,7 @@
+header, .download, .features, .overlay, .contact .bg-primary{
+  overflow-x: hidden;
+}
+
+.device{
+  display: : none;
+}
