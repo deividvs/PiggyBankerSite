@@ -28,13 +28,21 @@ header, .download, .features, .overlay, .contact .bg-primary{
   text-align: center;
 }
 
-.float_right{
-  float: left;
-}
-
 .navbar-nav li{
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.female, .male{
+  font-size: 12px;
+}
+
+.female{
+  color: #EE82EE;
+}
+
+.male{
+  color: green;
 }
 
 header{
