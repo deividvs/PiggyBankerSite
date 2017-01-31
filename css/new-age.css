@@ -117,7 +117,6 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 10px;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -137,6 +136,7 @@ p {
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #222222;
+    background-image: url('../img/logo-vertical-color.png');
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {

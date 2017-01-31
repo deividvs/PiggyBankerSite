@@ -3,8 +3,8 @@ header, .download, .features, .overlay, .contact .bg-primary{
 }
 
 #mainNav{
-  background-color: transparent;
   color: #fff;
+  padding: 10px;
 }
 
 .navbar .navbar-nav {
@@ -23,12 +23,11 @@ header, .download, .features, .overlay, .contact .bg-primary{
 }
 
 header{
-  background: url('../img/background.png') center no-repeat fixed;
+  background: url('../img/background2.png') center no-repeat fixed;
   background-size: cover;
 }
 
 .block_header{
-  /*background-color: #fff;*/
   height: 500px;margin-top: 200px;
 }
 
@@ -79,12 +78,20 @@ header{
 }
 
 .img-circle{
-  margin-top: 25px;
+  margin-top: 2px;
+  margin-left: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.text-chat{
+  padding-top: 30px;
+  margin-left: 10px;
 }
 
 .conversarion{
   background-color: #fff;
-  height: 150px;
   margin-top: 5px;
   margin-bottom: 5px;
+  padding: 10px;
 }
