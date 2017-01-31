@@ -6,7 +6,7 @@ header, .download, .features, .overlay, .contact .bg-primary{
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 25px;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
 .features{
@@ -61,7 +61,7 @@ header{
 
 .block_midle h3{
   font-weight: bold;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .block_midle p{
