@@ -2,6 +2,60 @@ header, .download, .features, .overlay, .contact .bg-primary{
   overflow-x: hidden;
 }
 
-.device{
-  display: : none;
+#mainNav{
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header{
+  background: url('../img/background.png') center no-repeat fixed;
+  background-size: cover;
+}
+
+.block_header{
+  background-color: #fff;
+  height: 500px;margin-top: 200px;
+}
+
+.block_midle{
+  height: 250px;
+}
+
+.circle-icon{
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.fa-pencil{
+  color: #000;
+  font-size: 50px;
+}
+
+.btn_sign_in{
+  position: absolute;
+  border-bottom: 0;
+}
+
+.download{
+  padding: 10px!important;
 }
