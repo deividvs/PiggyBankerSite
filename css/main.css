@@ -187,9 +187,17 @@ header{
   padding: 10px;
 }
 
+#features{
+  background: url('../img/background_text.png') fixed;
+}
+
+#features .text-left ul li {
+  font-size: 18px;
+}
+
 footer{
   background-color: #DCDCDC;
-  background: url('../img/background_bottom.png') no-repeat;
+  background: url('../img/background_bottom.png') fixed;
   color: #1aa29b;
 }
 
