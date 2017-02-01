@@ -1,5 +1,5 @@
-*{
-  overflow: none;
+body{
+  overflow-x: hidden;
 }
 
 header, .download, .features, .overlay, .contact .bg-primary{
