@@ -206,3 +206,35 @@ footer ul li a{
   color: #1aa29b;
   font-size: 20px;
 }
+
+/* Congrats Page */
+
+.congrats_page{
+  height: auto;
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  padding: 40px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.fa-plus{
+  font-size: 90px;
+  margin-top: 85px;
+}
+
+.congrats_page h2{
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Nunito', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.congrats_page .img_piggy{
+  margin-top: 80px;
+}
