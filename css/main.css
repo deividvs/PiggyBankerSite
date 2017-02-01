@@ -1,3 +1,35 @@
+/*deivid*/
+
+.fa-wechat:before, .fa-weixin:before,
+.fa-money:before,.fa-pencil:before,.fa-heart:before {
+  color: #5da19a;
+}
+{
+
+}
+
+.btn-danger{
+  border-radius: 0px!important;
+}
+
+h1,h2,p,ul,li{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p a{
+  color: #337ab7!important;
+  font-family: 'Ubuntu', sans-serif;
+
+}t
+
+ol,ul{
+  list-style: none;
+
+}
+
+
+/*deivid*/
+
 body{
   overflow-x: hidden;
 }
@@ -79,8 +111,8 @@ header{
 }
 
 .block_midle p{
-  font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  /*font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);*/
 }
 
 .bg-primary{
