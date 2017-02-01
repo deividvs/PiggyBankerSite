@@ -187,6 +187,7 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;

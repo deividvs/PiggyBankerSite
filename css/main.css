@@ -101,6 +101,14 @@ header{
   padding-top: 0;
 }
 
+.float-lft{
+  float: left;
+}
+
+.float-rgt{
+  float: right;
+}
+
 .navbar-nav .fa-facebook, .navbar-nav .fa-instagram, .navbar-nav .fa-twitter{
   font-size: 20px;
 }
