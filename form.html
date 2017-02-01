@@ -1,0 +1,47 @@
+<html>
+<head>
+</head>
+<body>
+<div style="text-align: center">
+<form method="post" target="pagseguro"
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
+
+        <!-- Campos obrigatórios -->
+        <input name="receiverEmail" type="hidden" value="suporte@lojamodelo.com.br">
+        <input name="currency" type="hidden" value="BRL">
+
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->
+        <input name="itemId1" type="hidden" value="0001">
+        <input name="itemDescription1" type="hidden" value="Comparador Piggy Banker">
+        <input name="itemAmount1" type="hidden" value="4.9">
+        <input name="itemQuantity1" type="hidden" value="1">
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->
+        <input name="reference" type="hidden" value="REFCOMPARADOR">
+
+        <!-- Dados do comprador (opcionais) -->
+        <input name="senderName" type="hidden" value="" id="name">
+        <input name="senderEmail" type="hidden" value="" id="email">
+
+        <!-- submit do form (obrigatório) -->
+        <input alt="Pague com PagSeguro" name="submit"  type="image"
+src="https://dabuttonfactory.com/button.png?t=Finalizar&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=3dc65c&ebgc=07632c"/>
+
+</form>
+</div>
+<script>
+var query = location.search.slice(1);
+var partes = query.split('&');
+var data = {};
+partes.forEach(function (parte) {
+    var chaveValor = parte.split('=');
+    var chave = chaveValor[0];
+    var valor = chaveValor[1];
+    data[chave] = valor;
+});
+
+document.getElementById('name').value = data.name
+document.getElementById('email').value = data.email
+
+</script>
+</body>
+</html>
