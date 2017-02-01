@@ -1,5 +1,13 @@
+*{
+  overflow: none;
+}
+
 header, .download, .features, .overlay, .contact .bg-primary{
   overflow-x: hidden;
+}
+
+.bg-primary{
+  padding: 0!important;
 }
 
 .how_to_work{
@@ -17,6 +25,10 @@ header, .download, .features, .overlay, .contact .bg-primary{
 #mainNav{
   color: #fff;
   padding: 10px;
+}
+
+.contact{
+  background-color: #fdcc52;
 }
 
 .navbar .navbar-nav {
@@ -69,6 +81,10 @@ header{
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
+.bg-primary{
+  padding: 50px;
+}
+
 .circle-icon{
   background-color: #fff;
   width: 80px;
@@ -79,9 +95,10 @@ header{
   margin-bottom: 20px;
 }
 
-.fa-pencil, .fa-weixin, .fa-heart{
+.fa-pencil, .fa-weixin, .fa-heart, .fa-money{
   color: #000;
   font-size: 50px;
+  padding-top: 0;
 }
 
 .navbar-nav .fa-facebook, .navbar-nav .fa-instagram, .navbar-nav .fa-twitter{
@@ -96,6 +113,10 @@ header{
 
 .btn_sign_in{
   margin: 0 auto;
+}
+
+.bg-primary .row{
+  padding-bottom: 50px;
 }
 
 .download{
@@ -137,6 +158,20 @@ header{
   padding: 12px;
   border-radius: 20px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.WhoAreWe{
+  height: auto;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.WhoAreWe h2{
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .conversarion{
