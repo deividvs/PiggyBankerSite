@@ -2,7 +2,7 @@ body{
   overflow-x: hidden;
 }
 
-header, .download, .features, .overlay, .contact .bg-primary{
+header, #download , .download, .features, .overlay, .contact .bg-primary{
   overflow-x: hidden!important;
   overflow-y: hidden!important;
 }
