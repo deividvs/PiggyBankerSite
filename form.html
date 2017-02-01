@@ -16,7 +16,7 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
         <input name="itemAmount1" type="hidden" value="4.90">
         <input name="itemQuantity1" type="hidden" value="1">
         <!-- Código de referência do pagamento no seu sistema (opcional) -->
-        <input name="reference" type="hidden" value="REFCOMPARADOR">
+        <input name="reference" type="hidden" id='reference'>
 
         <!-- Dados do comprador (opcionais) -->
         <input name="senderName" type="hidden" value="" id="name">
@@ -41,6 +41,7 @@ partes.forEach(function (parte) {
 
 document.getElementById('name').value = data.name
 document.getElementById('email').value = data.email
+document.getElementById('reference').value = data.email
 
 </script>
 </body>
