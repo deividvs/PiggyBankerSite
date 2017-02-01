@@ -146,6 +146,8 @@ header{
 
 footer{
   background-color: #DCDCDC;
+  background: url('../img/background_bottom.png') no-repeat;
+  color: #1aa29b;
 }
 
 footer ul li a{
