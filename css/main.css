@@ -3,7 +3,8 @@ body{
 }
 
 header, .download, .features, .overlay, .contact .bg-primary{
-  overflow-x: hidden;
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
 }
 
 .bg-primary{
@@ -210,6 +211,10 @@ footer ul li a{
 @media screen and (max-width: 768px) {
   header{
     padding: 0!important;
+  }
+
+  .WhoAreWe{
+    padding: 15px;
   }
 }
 
