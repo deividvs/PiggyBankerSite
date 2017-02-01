@@ -207,6 +207,12 @@ footer ul li a{
   font-size: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  header{
+    padding: 0!important;
+  }
+}
+
 /* Congrats Page */
 
 .congrats_page{
